@@ -13,8 +13,34 @@ body {
   width: 100%;
 }
 
-.page-content {
+.site-header {
   width: 960px;
   margin: 0 auto;
   background-color: #FFFFFF;
+}
+
+.site-nav li {
+  display: inline;
+  float: right;
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+#logo {
+  float: left;
+}
+
+.page-content {
+  width: 960px;
+  margin: 0 auto;
+  padding: 25px 0;
+  background-color: #FFFFFF;
+}
+
+.wrap {
+  max-width: 960px;
+  padding: 0 25px;
+  margin: 0 auto;
+  zoom: 1;
 }
