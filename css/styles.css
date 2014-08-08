@@ -48,6 +48,11 @@ body {
   zoom: 1;
 }
 
+#slideshow-container {
+  height: 400px;
+  overflow: hidden;
+}
+
 .divider-heading {
   padding: 30px 0 0 0;
   border-top: 4px solid #888888;
