@@ -33,7 +33,7 @@
             <div class="clear"></div> -->
         </h4>
       </div>
-      <div class="row">
+        <div class="row">
           <div class="alpine intro first column large-4">
             <p>
               <img src="http://www.ranchroadwedding.com/wp-content/uploads/2013/01/alpine.jpg" alt="">
@@ -80,26 +80,7 @@
           <div class="divider-border"></div>
           <div class="clear"></div>
         </h2>
-        <div class="row">
-          <div class="alpine column large-4">
-                <h4>Alpine</h4>
-                <p></p>
-          </div>
-          <div class="marfa column large-4">
-                <h4>Marfa</h4>
-                <p></p>
-<!--                       <div class="trigger-button active">
-                    <span>Thunderbird Hotel</span>
-                </div>
-                <div class="accordian">
-                <a></a>
-                The Thunderbird Hotel is a classic mid-century roadside motor court updated to reflect a comfortably minimal aesthetic. -->
-          </div>  
-          <div class="ftdavis column large-4">
-                <h4>Fort Davis</h4>
-                <p></p>
-          </div> 
-        </div>
+                  {% include stay_accordian.html %}
       </div>
     </section>
 
@@ -145,7 +126,32 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="/js/isotope.pkgd.min.js"></script>
-
+    <script>
+    $(document).ready(function() {
+          function close_accordion_section() {
+              $('.accordion .accordion-section-title').removeClass('active');
+              $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+          }
+       
+          $('.accordion-section-title').click(function(e) {
+              // Grab current anchor value
+              var currentAttrValue = $(this).attr('href');
+       
+              if($(e.target).is('.active')) {
+                  close_accordion_section();
+              }else {
+                  close_accordion_section();
+       
+                  // Add active class to section title
+                  $(this).addClass('active');
+                  // Open up the hidden content panel
+                  $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+              }
+       
+              e.preventDefault();
+          });
+      });
+    </script>
 <!--     // $( function() {
     //     // init Isotope
     //     var $container = $('.isotope').isotope({
@@ -184,18 +190,18 @@
     //   }); -->
 
 
-    <script>
-      $(document).ready(function(){ 
-        $('.trigger-button').click(function() {
-          $(".trigger-button").removeClass("active")
-          $('.accordion').slideUp('normal');
-          if($(this).next().is(':hidden') == true) {
-            $(this).next().slideDown('normal');
-            $(this).addClass("active");
-           } 
-         });
-        $('.accordion').hide();
-      });
-    </script>  
+  
+<!--     //   $(document).ready(function(){ 
+    //     $('.trigger-button').click(function() {
+    //       $(".trigger-button").removeClass("active")
+    //       $('.accordion').slideUp('normal');
+    //       if($(this).next().is(':hidden') == true) {
+    //         $(this).next().slideDown('normal');
+    //         $(this).addClass("active");
+    //        } 
+    //      });
+    //     $('.accordion').hide();
+    //   });
+ -->
     </body>
 </html>
