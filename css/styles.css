@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
   padding: 25px 0;
   background-color: #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.07);
+  border-left: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
 }
 
 .column {
@@ -53,6 +57,68 @@ body {
   overflow: hidden;
 }
 
+.alpine.intro, .marfa.intro, .ftdavis.intro {
+  padding-right: 25px;
+}
+
+/*.alpine.intro, .marfa.intro, .ftdavis.intro img {
+  height: 183px;
+}*/
+
+.first { margin-top: 0 !important; margin-left: 0 !important; }
+.last { margin-bottom: 0 !important; padding-right: 0 !important; }
+
+/*grid css*/
+
+.item-grid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio_thumb_holder {
+  height: 157px;
+  overflow: hidden;
+}
+
+.item-grid .item-info h3, .item-grid .item-info-overlay h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.item-grid .item-info h4, .item-grid .item-info-overlay h4 {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.item-grid ul li.item {
+  width: 226px;
+  height: 245px;
+  text-align: center;
+}
+
+.item-grid ul li {
+  float: left;
+  position: relative;
+/*  margin: 0 0 6px 6px;*/
+  padding: 0;
+  background-color: #f4f4f4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
+}
+
+.item-grid .item-info {
+  padding: 15px;
+  float: left;
+}
+
+/*end grid css*/
+
 .divider-heading {
   padding: 30px 0 0 0;
   border-top: 4px solid #888888;
@@ -65,6 +131,7 @@ body {
   height: 1px;
   margin: 40px 0;
 }
+
 .trigger-button {
   float: left;
   width: 100%;
