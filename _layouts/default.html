@@ -5,14 +5,26 @@
 
     <body>
 
-    {% include header.html %}
+    <div id="header">
+      {% include header.html %}
+    </div>
 
 <section id="home" class="page-content">
     <div class="wrap">
       <div class="row">
         <div id="slideshow-container" class="column large-12">
           <div id="slides">    
-            <img src="http://coffeystable.smugmug.com/Places/MARFA-TEXAS/i-P5twzDw/0/O/IMG_2717.jpg" alt="">
+            <img src="images/chavez-1.jpg" alt="">
+            <img src="images/chavez-2.jpg" alt="">
+            <img src="images/chavez-3.jpg" alt="">
+            <img src="images/chavez-4.jpg" alt="">
+            <img src="images/chavez-5.jpg" alt="">
+            <img src="images/chavez-6.jpg" alt="">
+            <img src="images/chavez-7.jpg" alt="">
+            <img src="images/chavez-8.jpg" alt="">
+            <img src="images/chavez-9.jpg" alt="">
+            <img src="images/chavez-10.jpg" alt="">   
+            <!-- <img src="http://coffeystable.smugmug.com/Places/MARFA-TEXAS/i-P5twzDw/0/O/IMG_2717.jpg" alt=""> -->
     <!--         <img src="images/chavez-2.jpg" alt="">
             <img src="images/chavez-3.jpg" alt="">
             <img src="images/chavez-4.jpg" alt="">
@@ -85,8 +97,18 @@
     </section>
 
 <!-- SEE. Section with four columns -->
+    <section id="see" class="page-content">
+      <div class="wrap">
+        <div class="section-title">
+          <h1>SEE.</h1>
+        </div>  
+        <div class="divider-heading"></div>
+        <div class="clear"></div>
 
           {% include see.html %}
+
+      </div>
+    </section>
 
 <!-- Eat+Drink Section. Section with four columns -->
 
@@ -123,6 +145,46 @@
     </section>      
 
 <!-- Script -->
+    
+    <script src="js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+      $("#slides").slidesjs({
+        play: {
+          active: false,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+          effect: "fade",
+            // [string] Can be either "slide" or "fade".
+          interval: 7000,
+            // [number] Time spent on each slide in milliseconds.
+          auto: true,
+            // [boolean] Start playing the slideshow on load.
+            },
+          pagination: {
+            active: false,
+                // [boolean] Create pagination items.
+                // You cannot use your own pagination. Sorry.
+            },
+         navigation: {
+            active: true,
+                    // [boolean] Generates next and previous buttons.
+                    // You can set to false and use your own buttons.
+                    // User defined buttons must have the following:
+                    // previous button: class="slidesjs-previous slidesjs-navigation"
+                    // next button: class="slidesjs-next slidesjs-navigation"
+                  effect: "fade"
+                    // [string] Can be either "slide" or "fade".
+                }
+      });
+    });
+    </script>
+    
+<!-- Foundation JS -->
+    <script>
+        $(document).foundation();
+    </script>
+
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/eventEmitter/EventEmitter.js"></script>
     <script src="bower_components/eventie/eventie.js"></script>
@@ -135,11 +197,17 @@
     <script src="bower_components/outlayer/outlayer.js"></script>
     <script src="bower_components/masonry/masonry.js"></script>
 
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script src="js/item.js"></script>
     <script src="js/layout-mode.js"></script>
     <script src="js/isotope.js"></script>
     <script src="js/layout-modes/masonry.js"></script>
     <script src="js/layout-modes/fit-rows.js"></script>
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
     <script>
     $(document).ready(function() {
           function close_accordion_section() {
@@ -199,18 +267,5 @@
         });
       });
     </script>
-
-<!--     //   $(document).ready(function(){ 
-    //     $('.trigger-button').click(function() {
-    //       $(".trigger-button").removeClass("active")
-    //       $('.accordion').slideUp('normal');
-    //       if($(this).next().is(':hidden') == true) {
-    //         $(this).next().slideDown('normal');
-    //         $(this).addClass("active");
-    //        } 
-    //      });
-    //     $('.accordion').hide();
-    //   });
- -->
     </body>
 </html>
