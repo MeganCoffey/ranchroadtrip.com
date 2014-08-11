@@ -123,9 +123,23 @@
     </section>      
 
 <!-- Script -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/doc-ready/doc-ready.js"></script>
+    <script src="bower_components/get-style-property/get-style-property.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/jquery-bridget/jquery.bridget.js"></script>
+    <script src="bower_components/matches-selector/matches-selector.js"></script>
+    <script src="bower_components/outlayer/item.js"></script>
+    <script src="bower_components/outlayer/outlayer.js"></script>
+    <script src="bower_components/masonry/masonry.js"></script>
 
-
-    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="js/item.js"></script>
+    <script src="js/layout-mode.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/layout-modes/masonry.js"></script>
+    <script src="js/layout-modes/fit-rows.js"></script>
     <script>
     $(document).ready(function() {
           function close_accordion_section() {
@@ -153,84 +167,39 @@
       });
     </script>
     <script>
-     $( function() {
-      // init Isotope
-      var $container = $('.isotope').isotope({
-        itemSelector: '.item',
-        layoutMode: 'fitRows',
-        getSortData: {
-          category: '[data-category]',
-        }
-      });
-    });
+      $( function() {
+        // init Isotope
+        var $container = $('.isotope').isotope({
+          itemSelector: '.item',
+          layoutMode: 'fitRows',
+          getSortData: {
+            category: '[data-category]',
+          }
+        });
 
-      // filter functions
-    var filterFns = {
-      // show if number is greater than 50
-      numberGreaterThan50: function() {
-        var number = $(this).find('.number').text();
-        return parseInt( number, 10 ) > 50;
-      },
-      // show if name ends with -ium
-      ium: function() {
-        var name = $(this).find('.name').text();
-        return name.match( /ium$/ );
-      }
-    };
+        // filter functions
+        var filterFns = {
+        };
 
-    // bind filter button click
-    $('#filters').on( 'click', 'button', function() {
-      var filterValue = $( this ).attr('data-filter');
-      // use filterFn if matches value
-      filterValue = filterFns[ filterValue ] || filterValue;
-      $container.isotope({ filter: filterValue });
-    });
-
-   // change is-checked class on buttons
-    $('.button-group').each( function( i, buttonGroup ) {
-      var $buttonGroup = $( buttonGroup );
-      $buttonGroup.on( 'click', 'button', function() {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $( this ).addClass('is-checked');
-      });
-    });
-    
-
-    </script>
-<!-- 
-    //     // filter functions
-    //     var filterFns = {
-    //       // show if number is greater than 50
-    //       numberGreaterThan50: function() {
-    //         var number = $(this).find('.number').text();
-    //         return parseInt( number, 10 ) > 50;
-    //       },
-    //       // show if name ends with -ium
-    //       ium: function() {
-    //         var name = $(this).find('.name').text();
-    //         return name.match( /ium$/ );
-    //       }
-    //     };
-    //     // bind filter button click
-    //     $('#filters').on( 'click', 'button', function() {
-    //       var filterValue = $( this ).attr('data-filter');
-    //       // use filterFn if matches value
-    //       filterValue = filterFns[ filterValue ] || filterValue;
-    //       $container.isotope({ filter: filterValue });
-    //     });
-    //     // change is-checked class on buttons
-    //     $('.button-group').each( function( i, buttonGroup ) {
-    //       var $buttonGroup = $( buttonGroup );
-    //       $buttonGroup.on( 'click', 'button', function() {
-    //         $buttonGroup.find('.is-checked').removeClass('is-checked');
-    //         $( this ).addClass('is-checked');
-    //       });
-    //     });
+        // bind filter button click
+        $('#filters').on( 'click', 'button', function() {
+          var filterValue = $( this ).attr('data-filter');
+          // use filterFn if matches value
+          filterValue = filterFns[ filterValue ] || filterValue;
+          $container.isotope({ filter: filterValue });
+        });
         
-    //   }); -->
+        // change is-checked class on buttons
+        $('.button-group').each( function( i, buttonGroup ) {
+          var $buttonGroup = $( buttonGroup );
+          $buttonGroup.on( 'click', 'button', function() {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $( this ).addClass('is-checked');
+          });
+        });
+      });
+    </script>
 
-
-  
 <!--     //   $(document).ready(function(){ 
     //     $('.trigger-button').click(function() {
     //       $(".trigger-button").removeClass("active")
