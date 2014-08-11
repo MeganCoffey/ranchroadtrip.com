@@ -11,40 +11,17 @@
 
 <section id="home" class="page-content">
     <div class="wrap">
-      <div class="row">
-        <div id="slideshow-container" class="column large-12">
-          <div id="slides">    
-            <img src="images/chavez-1.jpg" alt="">
-            <img src="images/chavez-2.jpg" alt="">
-            <img src="images/chavez-3.jpg" alt="">
-            <img src="images/chavez-4.jpg" alt="">
-            <img src="images/chavez-5.jpg" alt="">
-            <img src="images/chavez-6.jpg" alt="">
-            <img src="images/chavez-7.jpg" alt="">
-            <img src="images/chavez-8.jpg" alt="">
-            <img src="images/chavez-9.jpg" alt="">
-            <img src="images/chavez-10.jpg" alt="">   
-            <!-- <img src="http://coffeystable.smugmug.com/Places/MARFA-TEXAS/i-P5twzDw/0/O/IMG_2717.jpg" alt=""> -->
-    <!--         <img src="images/chavez-2.jpg" alt="">
-            <img src="images/chavez-3.jpg" alt="">
-            <img src="images/chavez-4.jpg" alt="">
-            <img src="images/chavez-5.jpg" alt="">
-            <img src="images/chavez-6.jpg" alt="">
-            <img src="images/chavez-7.jpg" alt="">
-            <img src="images/chavez-8.jpg" alt="">
-            <img src="images/chavez-9.jpg" alt="">
-            <img src="images/chavez-10.jpg" alt=""> -->
-            <!-- TODO there are ten images in the images folder. write image tags for each of them. then wrap the images in a #slides div so that Slides JS knows how to find them -->
-          </div>
-        </div>
+
+      <div class="row"> 
+        <ul class="rslides" id="slider1">
+          <li><img src="images/1.jpg" alt=""></li>
+          <li><img src="images/2.jpg" alt=""></li>
+          <li><img src="images/3.jpg" alt=""></li>
+        </ul>
       </div>  
-      <div>
         <h4>
           Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of the desert that lets you truly take in every moment you’re here. Come enjoy a place of such beauty and grace. Welcome to West Texas.
-  <!--           <div class="divider-border"></div>
-            <div class="clear"></div> -->
         </h4>
-      </div>
         <div class="row">
           <div class="alpine intro first column large-4">
             <p>
@@ -69,7 +46,7 @@
             <p>Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of.
             </p>
           </div>  
-      </div>
+        </div>
     </div>
 </section>    
 
@@ -145,45 +122,26 @@
     </section>      
 
 <!-- Script -->
-    
-    <script src="js/jquery.slides.js"></script>
+
+<!-- Slider -->
+
     <script>
-    $(function(){
-      $("#slides").slidesjs({
-        play: {
-          active: false,
-            // [boolean] Generate the play and stop buttons.
-            // You cannot use your own buttons. Sorry.
-          effect: "fade",
-            // [string] Can be either "slide" or "fade".
-          interval: 7000,
-            // [number] Time spent on each slide in milliseconds.
+      $(function () {
+        $(".rslides").responsiveSlides({
           auto: true,
-            // [boolean] Start playing the slideshow on load.
-            },
-          pagination: {
-            active: false,
-                // [boolean] Create pagination items.
-                // You cannot use your own pagination. Sorry.
-            },
-         navigation: {
-            active: true,
-                    // [boolean] Generates next and previous buttons.
-                    // You can set to false and use your own buttons.
-                    // User defined buttons must have the following:
-                    // previous button: class="slidesjs-previous slidesjs-navigation"
-                    // next button: class="slidesjs-next slidesjs-navigation"
-                  effect: "fade"
-                    // [string] Can be either "slide" or "fade".
-                }
-      });
-    });
+          maxwidth: 800,
+          speed: 800,
+          });
+        });
     </script>
-    
+
 <!-- Foundation JS -->
+
     <script>
         $(document).foundation();
     </script>
+
+<!-- Sticky Nav -->
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/eventEmitter/EventEmitter.js"></script>
@@ -208,6 +166,9 @@
         $("#header").sticky({ topSpacing: 0 });
       });
     </script>
+
+<!-- Accordian -->
+
     <script>
     $(document).ready(function() {
           function close_accordion_section() {
@@ -234,6 +195,9 @@
           });
       });
     </script>
+
+<!-- Isotope -->
+
     <script>
       $( function() {
         // init Isotope

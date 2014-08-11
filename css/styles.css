@@ -60,10 +60,11 @@ body {
   zoom: 1;
 }
 
-#slideshow-container {
+/*#slideshow-container {
   height: 400px;
   overflow: hidden;
-}
+}*/
+
 
 .alpine.intro, .marfa.intro, .ftdavis.intro {
   padding-right: 25px;
