@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include rewind_head.html %}
 
     <body>
 
     <div id="header">
-      {% include header.html %}
+      {% include rewind_header.html %}
     </div>
 
     <section class="page-content">
-    <div class="wrap">
     	{{ content }}
-    </div>
     </section>  
 
     <!-- Footer -->
 
     <section id="footer" class="page-content">
-      <div class="wrap">
           {% include footer.html %}
-      </div>
     </section>  
 
+    <script type="text/javascript" src="../js/jquery.sticky.js"></script>
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
 
     </body>
 </html>

@@ -1,4 +1,11 @@
 /* ----------------------------------------------------------*/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  padding-left: 45px;
+}
 
 body {
   background-image: url(../images/landscape-1024x682.jpg);
@@ -11,6 +18,10 @@ body {
   border: none;
   z-index: -999999;
   width: 100%;
+}
+
+h1 {
+  font-size: 4.75rem;
 }
 
 .site-header {
@@ -26,12 +37,17 @@ body {
   list-style-type: none;
 }
 
+.site-nav ul {
+  font-size: 1.25rem;
+}
+
 #header-sticky-wrapper {
   max-width: 960px;
+  position: relative;
   margin: 0 auto;
   zoom: 1;
-  top: 0
-  z-index: 100000;
+  top: 0;
+  z-index: 1000;
 }
 
 #logo {
@@ -39,7 +55,7 @@ body {
 }
 
 .page-content {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 25px 0;
   background-color: #FFFFFF;
@@ -75,7 +91,10 @@ body {
 }*/
 
 .first { margin-top: 0 !important; margin-left: 0 !important; }
-.last { margin-bottom: 0 !important; padding-right: 0 !important; }
+.last { 
+  margin-bottom: 0 !important; 
+  padding-right: 0 !important; 
+}
 
 /*grid css*/
 
@@ -240,9 +259,9 @@ body {
  
 .accordion {
     overflow:hidden;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-    border-radius:3px;
-    background:#f7f7f7;
+/*    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;*/
+/*    background:#f7f7f7;*/
 }
  
 /*----- Section Titles -----*/
@@ -250,17 +269,17 @@ body {
     width:100%;
     padding:15px;
     display:inline-block;
-    border-bottom:1px solid #1a1a1a;
-    background:#333;
+/*    border-bottom:1px solid #1a1a1a;*/
+    background:#f4f4f4;
     transition:all linear 0.15s;
     /* Type */
     font-size:1.200em;
-    text-shadow:0px 1px 0px #1a1a1a;
-    color:#fff;
+/*    text-shadow:0px 1px 0px #1a1a1a;*/
+/*    color:#fff;*/
 }
  
 .accordion-section-title.active, .accordion-section-title:hover {
-    background:#4c4c4c;
+/*    background:#4c4c4c;*/
     /* Type */
     text-decoration:none;
 }

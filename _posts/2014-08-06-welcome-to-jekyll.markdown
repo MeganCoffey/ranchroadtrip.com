@@ -1,22 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Marfa Municipal Golf Course"
 date:   2014-08-06 20:25:58
-categories: jekyll update
+categories: see
+cover_photo_url: 
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+                <li class="item alpine column large-3" data-category="alpine">
+                  <div class="portfolio_thumb_holder">
+                      <img src="http://www.ranchroadwedding.com/wp-content/uploads/2012/12/img_3345.jpg">
+                  </div> 
+                </li> 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
