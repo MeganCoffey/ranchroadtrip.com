@@ -121,9 +121,49 @@
         </div>  
         <div class="divider-heading"></div>
         <div class="clear"></div>
-
-          {% include see.html %}
-
+        <div id="filters" class="button-group">
+          <button class="button is-checked" data-filter="*">show all</button>
+          <button class="button" data-filter=".alpine">Alpine</button>
+          <button class="button" data-filter=".marfa">Marfa</button>
+          <button class="button" data-filter=".ftdavis">Fort Davis</button>
+          <button class="button" data-filter=".surrounding-areas">Surrounding Areas</button>
+        </div>
+        <div class="row">
+          <div class="item-grid">
+            <div class="isotope">
+              <ul class="items">
+                <li class="item marfa column large-3" data-category="marfa">
+                    {% for post in site.categories.marfa %}
+                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
+                      <h3 class="title">{{ post.title }}</h3>
+                      <h4>{{ post.category }}</h4></a>
+                    {% endfor %}
+                </li>
+                <li class="item alpine column large-3" data-category="alpine">
+                    {% for post in site.categories.alpine %}
+                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
+                      <h3 class="title">{{ post.title }}</h3>
+                      <h4>{{ post.category }}</h4></a>
+                    {% endfor %}
+                </li>  
+                <li class="item ftdavis column large-3" data-category="ftdavis">
+                    {% for post in site.categories.fortdavis %}
+                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
+                      <h3 class="title">{{ post.title }}</h3>
+                      <h4>{{ post.category }}</h4></a>
+                    {% endfor %}
+                </li>   
+                <li class="item surrounding-areas column large-3" data-category="surrounding-areas">
+                    {% for post in site.categories.surroundingareas %}
+                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
+                      <h3 class="title">{{ post.title }}</h3>
+                      <h4>{{ post.category }}</h4></a>
+                    {% endfor %}
+                </li>        
+              </ul>                        
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -141,9 +181,9 @@
           <div class="divider-border"></div>
           <div class="clear"></div>
         </h2> -->
-        <div class="row">
+<!--         <div class="row">
         
-        </div>
+        </div> -->
       </div>
     </section>
 

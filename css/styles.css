@@ -24,6 +24,10 @@ h1 {
   font-size: 4.75rem;
 }
 
+.title h3 {
+  font-size: 15px;
+}
+
 .site-header {
   width: 960px;
   margin: 0 auto;
@@ -76,6 +80,10 @@ h1 {
   zoom: 1;
 }
 
+#see .wrap, #stay .wrap, #eatdrink .wrap {
+  padding-top: 25px;
+}
+
 /*#slideshow-container {
   height: 400px;
   overflow: hidden;
@@ -104,19 +112,14 @@ h1 {
   padding: 0;
 }
 
-.portfolio_thumb_holder {
-  height: 157px;
-  overflow: hidden;
-}
-
-.item-grid .item-info h3, .item-grid .item-info-overlay h3 {
+.item-info h3, .item-info-overlay h3 {
   font-size: 16px;
   font-weight: bold;
   line-height: 17px;
   margin-bottom: 0;
 }
 
-.item-grid .item-info h4, .item-grid .item-info-overlay h4 {
+.item-info h4, .item-info-overlay h4 {
   font-size: 11px;
   font-weight: bold;
   text-transform: uppercase;
