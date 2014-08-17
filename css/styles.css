@@ -298,3 +298,18 @@ h1 {
 }
 
 /*end accordian styles*/
+
+/* ---- .item ---- */
+
+.item {
+  float: left;
+  width: 600px;
+  height: inherit;
+  background: #0D8;
+  border: 5px solid white;
+/*  border-color: hsla(0, 0%, 0%, 0.7);*/
+}
+
+.item.width2 { width: 300px; }
+.item.height2 { height: inherit; }
+
