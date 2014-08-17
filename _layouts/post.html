@@ -1,15 +1,43 @@
----
-layout: page
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-  <div class="post-header">
-    <h3 class="title">{{ page.title }}</h3>
-    <h4>{{ page.category }}</h4>
-  </div>
+  {% include post_head.html %}
 
-  <article class="post-content">
-  {{ content }}
-  </article>
+    <body>
 
-</div>
+    <div id="header">
+      {% include post_header.html %}
+    </div>
+
+    <section class="page-content">
+	 <div class="wrap">
+			<div class="post" data-category="{{ post.category }}">
+
+<!-- 			  <div class="post-header">
+			    <h3 class="title">{{ page.title }}</h3>
+			    <h4>{{ page.category }}</h4>
+			  </div> -->
+
+			  <article class="post-content">
+			  {{ content }}
+			  </article>
+
+			</div>
+		</div>	
+    </section>  
+
+    <!-- Footer -->
+
+    <section id="footer" class="page-content">
+          {% include footer.html %}
+    </section>  
+    
+    <script type="text/javascript" src="/js/jquery.sticky.js"></script>
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
+
+    </body>
+</html>
