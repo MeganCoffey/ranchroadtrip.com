@@ -104,54 +104,6 @@ h1 {
   padding-right: 0 !important; 
 }
 
-/*grid css*/
-
-.item-grid ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.item-info h3, .item-info-overlay h3 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 17px;
-  margin-bottom: 0;
-}
-
-.item-info h4, .item-info-overlay h4 {
-  font-size: 11px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-.item-grid ul li.item {
-  width: 222px;
-  height: 245px;
-  text-align: center;
-  margin-bottom: 5px;
-  margin-right: 5px;
-}
-
-.item-grid ul li {
-  float: left;
-  position: relative;
-/*  margin: 0 0 6px 6px;*/
-  padding: 0;
-  background-color: #f4f4f4;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-}
-
-.item-grid .item-info {
-  padding: 15px;
-  float: left;
-}
-
-/*end grid css*/
-
 .divider-heading {
   padding: 30px 0 0 0;
   border-top: 4px solid #888888;
@@ -299,9 +251,9 @@ h1 {
 
 /*end accordian styles*/
 
-/* ---- .item ---- */
+/* ---- .item city pages ---- */
 
-.item {
+.item-city {
   float: left;
   width: 600px;
   height: inherit;
@@ -310,6 +262,43 @@ h1 {
 /*  border-color: hsla(0, 0%, 0%, 0.7);*/
 }
 
-.item.width2 { width: 300px; }
-.item.height2 { height: inherit; }
+.item-city.width2 { width: 300px; }
+.item-city.height2 { height: inherit; }
 
+/* ---- .item see/eat+drink pages ---- */
+
+.item-grid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item-grid ul li.item {
+  width: 222px;
+  height: 245px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.item-grid h3 {
+  font-size:15px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 5px;
+}
+
+.item-grid h4 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.item {
+  float: left;
+/*  width: 600px;*/
+  height: inherit;
+  background:#f4f4f4;
+/*  border: 5px solid white;*/
+/*  border-color: hsla(0, 0%, 0%, 0.7);*/
+}
