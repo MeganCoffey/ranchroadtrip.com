@@ -20,7 +20,7 @@
         </ul>
       </div>  
         <h4>
-          Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of the desert that lets you truly take in every moment you’re here. Come enjoy a place of such beauty and grace. Welcome to West Texas.
+          Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of the desert that lets you truly take in every moment you’re here. Come enjoy a place of such beauty and grace.
         </h4>
         <div class="row">
           <div class="alpine intro first column large-4">
@@ -33,7 +33,7 @@
             </p>
           </div>
           <div class="marfa intro column large-4">
-            <a href="/marfa/index.html"><h3><h3>Marfa</h3></a>
+            <a href="/marfa/index.html"><h3>Marfa</h3></a>
             <p>
               <img src="http://www.ranchroadwedding.com/wp-content/uploads/2012/09/marfahotel.png" alt="">
             </p>
@@ -42,7 +42,7 @@
             </p>
           </div>  
           <div class="ftdavis intro last column large-4">
-            <a href="/fortdavis/index.html"><h3><h3>Fort Davis</h3></a>
+            <a href="/fortdavis/index.html"><h3>Fort Davis</h3></a>
             <p>
               <img src="http://www.ranchroadwedding.com/wp-content/uploads/2012/09/fortdavis_hotel.png" alt="">
             </p>  
@@ -168,65 +168,6 @@
     </section>
 
 <!-- Eat+Drink Section. Section with four columns -->
-
-    <section id="eatdrink" class="page-content">
-      <div class="wrap">
-        <div class="section-title">
-          <h1>EAT + DRINK.</h1>
-        </div>  
-        <div class="divider-heading"></div>
-        <div class="clear"></div>
-        <div id="filters" class="button-group">
-          <button class="button is-checked" data-filter="*">show all</button>
-          <button class="button" data-filter=".alpine">Alpine</button>
-          <button class="button" data-filter=".marfa">Marfa</button>
-          <button class="button" data-filter=".ftdavis">Fort Davis</button>
-          <button class="button" data-filter=".surrounding-areas">Surrounding Areas</button>
-        </div>
-        <div class="row">
-          <div class="item-grid">
-            <div class="isotope">
-              <ul class="items">
-                <li class="item marfa column large-3" data-category="marfa">
-                    {% for post in site.categories.marfa %}
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    {% endfor %}
-                </li>
-                <li class="item alpine column large-3" data-category="alpine">
-                    {% for post in site.categories.alpine %}
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    {% endfor %}
-                </li>  
-                <li class="item ftdavis column large-3" data-category="ftdavis">
-                    {% for post in site.categories.fortdavis %}
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    {% endfor %}
-                </li>   
-                <li class="item surrounding-areas column large-3" data-category="surrounding-areas">
-                    {% for post in site.categories.surroundingareas %}
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    {% endfor %}
-                </li>        
-              </ul>                        
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!--     <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div> -->
     
 <!-- Footer -->
 
@@ -345,5 +286,6 @@
         });
       });
     </script>
+
     </body>
 </html>
