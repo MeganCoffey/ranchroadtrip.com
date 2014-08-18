@@ -126,13 +126,6 @@
                       <h4>{{ post.category }}</h4></a>
                     {% endfor %}
                 </li>
-                <li class="item marfa column large-3" data-category="marfa">
-                    {% for post in site.categories.marfa %}
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    {% endfor %}
-                </li>
                 <li class="item alpine column large-3" data-category="alpine">
                     {% for post in site.categories.alpine %}
                       <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
