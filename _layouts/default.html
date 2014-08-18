@@ -14,11 +14,12 @@
 
       <div class="row"> 
         <ul class="rslides" id="slider1">
-          <li><img src="images/slider_west_texas_road.jpg" alt=""></li>
+          <li><img src="images/slider_landscape.jpg" alt=""></li>
           <li><img src="images/slider_west_texas_cactus.jpg" alt=""></li>
           <li><img src="images/slider_marfa_city_street.jpg" alt=""></li>
         </ul>
       </div>  
+        <h5><b>Welcome to West Texas.</b></h5>
         <h4>
           Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of the desert that lets you truly take in every moment you’re here. Come enjoy a place of such beauty and grace.
         </h4>
@@ -118,6 +119,13 @@
           <div class="item-grid">
             <div class="isotope">
               <ul class="items">
+                <li class="item marfa column large-3" data-category="marfa">
+                    {% for post in site.categories.marfa %}
+                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
+                      <h3 class="title">{{ post.title }}</h3>
+                      <h4>{{ post.category }}</h4></a>
+                    {% endfor %}
+                </li>
                 <li class="item marfa column large-3" data-category="marfa">
                     {% for post in site.categories.marfa %}
                       <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">

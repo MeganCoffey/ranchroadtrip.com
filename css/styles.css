@@ -33,12 +33,17 @@ a:hover{
 }
 
 #home h4{
-  padding-top: 5%;
   padding-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
   font-weight: 300;
+}
+
+#home h5{
+    padding-top: 5%;
+  text-align: center;
+
 }
 
 #home a h3{

@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Marfa Municipal Golf Course"
-date:   2014-08-06 20:25:58
+title:  "Squeeze"
+date:   2014-01-01 20:25:59
 category: MARFA
-cover_photo_url: /images/marfagolfcourse.jpg
+cover_photo_url: /images/marfa_squeeze.jpg
 ---
 
 <div class="section-title">
-  <h2>Marfa Municipal Golf Course</h2>
-    <h4>MARFA</h4>
-    <div class="divider-border"></div>
+	<h2>Marfa Municipal Golf Course</h2>
+  	<h4>MARFA</h4>
+  	<div class="divider-border"></div>
 </div> 
 <div class="column small-6">
   <p>Marfa is not one of our favorite courses, but it is the only one in the area and it’s fun to say you played the highest elevation course in Texas – and of course, any day on the greens is a good day!
@@ -22,3 +22,4 @@ cover_photo_url: /images/marfagolfcourse.jpg
 <div class="column small-6">
     <img src="/images/holland_hotel_alpine.jpg">
 </div>   
+
