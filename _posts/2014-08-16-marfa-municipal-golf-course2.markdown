@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Terlingua (Ghost Town)"
-date:   2014-08-14 20:25:59
-category: SURROUNDINGAREAS
-cover_photo_url: /images/terlingua.jpg
+title:  "Marfa Municipal Golf Course"
+date:   2014-08-06 20:25:58
+category: MARFA
+cover_photo_url: /images/marfagolfcourse.jpg
 ---
 
 <div>
