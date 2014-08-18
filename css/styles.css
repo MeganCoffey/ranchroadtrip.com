@@ -138,9 +138,9 @@ h1 {
   padding-top: 25px;
 }
 
-#see .wrap{
+/*#see .wrap{
   height: 900px;
-}
+}*/
 
 /*#slideshow-container {
   height: 400px;
@@ -202,6 +202,17 @@ h1 {
 }
 
 /*buttons for isotope*/
+
+/*.isotope {
+  border: 1px solid #333;
+}*/
+
+/* clear fix */
+/*.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}*/
 
 /* ---- button ---- */
 
@@ -324,13 +335,27 @@ h1 {
 
 /* ---- .item see/eat+drink pages ---- */
 
-.item-grid ul {
+.item {
+/*  float: left;*/
+/*  width: 600px;*/
+/*  height: inherit;*/
+  background:#f4f4f4;
+/*  border: 5px solid white;*/
+/*  border-color: hsla(0, 0%, 0%, 0.7);*/
+}
+
+.wrap .item-grid {
+  height: 1200px;
+}
+
+.item-grid ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: left;
 }
 
-.item-grid ul li.item {
+.item-grid li.item {
   width: 222px;
   height: 245px;
   text-align: center;
@@ -348,14 +373,4 @@ h1 {
 .item-grid h4 {
   font-size: 10px;
   font-weight: bold;
-}
-
-
-.item {
-  float: left;
-/*  width: 600px;*/
-  height: inherit;
-  background:#f4f4f4;
-/*  border: 5px solid white;*/
-/*  border-color: hsla(0, 0%, 0%, 0.7);*/
 }
