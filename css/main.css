@@ -8,7 +8,7 @@
 
 html, body { height: 100%; }
 
-body {
+/*body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a:visited { color: #205caa; }*/
 
 /* Utility */
 
-.wrap:before,
+/*.wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
@@ -32,7 +32,7 @@ a:visited { color: #205caa; }
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
-}
+}*/
 
 
 /* Layout Styles */
@@ -40,12 +40,12 @@ a:visited { color: #205caa; }
 
 /* Site header */
 
-.site-header {
+
 /*  border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;*/
 /*  min-height: 56px;
   background-color: white;*/
-}
+
 
 .site-title,
 .site-title:hover,
@@ -331,6 +331,17 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 750px) {
 
+/*  .site-nav li {
+  display: inline;
+  float: right;
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.site-nav ul {
+  font-size: 1.25rem;
+}*/
+
   .footer-col-1 { width: 50%; }
 
   .footer-col-2 {
@@ -350,32 +361,42 @@ a:visited { color: #205caa; }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 685px) {
 
   .wrap { padding: 0 12px; }
-
+  
   .site-nav {
+    width: 100%;
     position: fixed;
     z-index: 10;
-    top: 14px; right: 8px;
+    top: 55px; left: 0px;
     background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-  }
+    padding-bottom: 15px;
+/*    padding-right: 5px;
+/*    border-radius: 5px;
+    border: 1px solid #e8e8e8;*/
+  }*/
+/*  .site-nav li {
+    font-size: 18px;
+    padding-left: 10px;
+    float: left;
+}   */ 
 
   .site-nav .menu-icon {
-    display: block;
+/*    display: block;*/
     font-size: 24px;
     color: #505050;
-    float: right;
+/*    float: left;*/
     width: 36px;
     text-align: center;
     line-height: 36px;
   }
 
-  .site-nav .menu-icon svg { width: 18px; height: 16px; }
+  #see .wrap, #stay .wrap, #eatdrink .wrap {
+    margin-top: 30px;
+}
+
+/*  .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
   .site-nav .trigger {
     clear: both;
@@ -391,7 +412,7 @@ a:visited { color: #205caa; }
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
-  }
+  }*/
 
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
