@@ -3,6 +3,7 @@ layout: post
 title:  "Buns N' Roses — Flowers, Gifts and Bakery"
 date:   2014-01-02 20:25:59
 category: MARFA
+tag: BAKERY & CAFE
 cover_photo_url: /images/marfa_bunsandroses_thumb.jpg
 ---
 

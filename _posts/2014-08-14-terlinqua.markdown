@@ -3,6 +3,7 @@ layout: post
 title:  "Terlingua (Ghost Town)"
 date:   2014-08-14 20:25:59
 category: SURROUNDINGAREAS
+tag: SCENIC
 cover_photo_url: /images/terlingua.jpg
 ---
 

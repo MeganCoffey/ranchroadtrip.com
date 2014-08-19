@@ -364,12 +364,15 @@ a:visited { color: #205caa; }*/
 @media screen and (max-width: 685px) {
 
   .wrap { padding: 0 12px; }
-  
+
+  .wrap.site-nav ul {
+min-width: 100%;
+  }
   .site-nav {
-    width: 100%;
+ /*   width: 100%;*/
     position: fixed;
     z-index: 10;
-    top: 55px; left: 0px;
+    top: 55px; left: 25px; right: 25px;
     background-color: white;
     padding-bottom: 15px;
 /*    padding-right: 5px;

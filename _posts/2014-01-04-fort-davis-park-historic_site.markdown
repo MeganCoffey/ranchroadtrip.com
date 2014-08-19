@@ -3,6 +3,7 @@ layout: post
 title:  "Fort Davis U.S. National Park and Historic Site"
 date:   2014-01-04 20:25:59
 category: FORTDAVIS
+tag: HISTORIC
 cover_photo_url: /images/ftdavis_the_fort.jpg
 ---
 

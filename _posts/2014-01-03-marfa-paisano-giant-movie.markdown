@@ -3,6 +3,7 @@ layout: post
 title:  "Hotel Paisano’s GIANT Museum"
 date:   2014-01-03 20:25:59
 category: MARFA
+tag: MUSEUM
 cover_photo_url: /images/marfa_paisano_giant_museum.jpg
 ---
 

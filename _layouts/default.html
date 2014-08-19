@@ -24,19 +24,19 @@
           Maybe it’s the vast, open landscape, the never-ending sky, or the still silence of the desert that lets you truly take in every moment you’re here. Come enjoy a place of such beauty and grace.
         </h4>
         <div class="row">
-          <div class="alpine intro first column large-4">
+          <div class="alpine intro first column small-12 medium-4 large-4">
               <a href="/alpine/index.html"><h3><light>Alpine, Texas</light></h3></a><img src="../images/alpine_texas.jpg" alt="">
             <p>  
               College town with a vibrant night life. <a href="/alpine/index.html"><i>Get to know Alpine</i></a>
             </p>
           </div>
-          <div class="marfa intro column large-4">
+          <div class="marfa intro column small-12 medium-4 large-4">
               <a href="/marfa/index.html"><h3><light>Marfa, Texas</light></h3></a><img src="../images/marfa_texas.jpg" alt="">
             <p>  
               The quiet, artsy town. <a href="/alpine/index.html"><i>Get to know Marfa</i></a>
             </p>
           </div>  
-          <div class="ftdavis intro last column large-4">
+          <div class="ftdavis intro last column small-12 medium-4 large-4">
               <a href="/ftdavis/index.html"><h3><light>Fort Davis, Texas</light></h3></a><img src="../images/fortdavis_texas.jpg" alt="">
             <p>Remote tiny town closet to the Observatory. <a href="/alpine/index.html"><i>Get to know Fort Davis</i></a>
             </p>
@@ -102,10 +102,11 @@
     </section>
 
 <!-- SEE. Section with four columns -->
+
     <section id="see" class="page-content">
       <div class="wrap">
         <div class="section-title">
-          <h1>SEE.</h1>
+          <h1>SEE + EAT.</h1>
         </div>  
         <div class="divider-heading"></div>
         <div class="clear"></div>
@@ -121,31 +122,31 @@
             <div class="iso">
               <ul class="items">
                 {% for post in site.categories.marfa %}
-                    <li class="item marfa column large-3" data-category="marfa">
+                    <li class="item marfa column small-3" data-category="marfa">
                       <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
                       <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
+                      <h4>{{ post.tag }}</h4></a>
                     </li>
                 {% endfor %}
                 {% for post in site.categories.alpine %}
-                  <li class="item alpine column large-3" data-category="alpine">
+                  <li class="item alpine column small-3" data-category="alpine">
                         <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
                         <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
+                        <h4>{{ post.tag }}</h4></a>
                   </li>  
                 {% endfor %}
                 {% for post in site.categories.fortdavis %}
-                  <li class="item ftdavis column large-3" data-category="ftdavis">
+                  <li class="item ftdavis column small-3" data-category="ftdavis">
                         <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
                         <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
+                        <h4>{{ post.tag }}</h4></a>
                   </li> 
                 {% endfor %}
                 {% for post in site.categories.surroundingareas %}
-                  <li class="item surrounding-areas column large-3" data-category="surrounding-areas">
+                  <li class="item surrounding-areas column small-3" data-category="surrounding-areas">
                         <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
                         <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
+                        <h4>{{ post.tag }}</h4></a>
                   </li>  
                     {% endfor %}      
               </ul>                            
@@ -155,59 +156,6 @@
       </div>
     </section>
 
-<!-- Eat+Drink Section. Section with four columns -->
- <section id="eatdrink" class="page-content">
-      <div class="wrap">
-        <div class="section-title">
-          <h1>EAT + DRINK.</h1>
-        </div>  
-        <div class="divider-heading"></div>
-        <div class="clear"></div>
-        <div id="filters2" class="button-group">
-          <button class="button is-checked" data-filter="*">show all</button>
-          <button class="button" data-filter=".alpine">Alpine</button>
-          <button class="button" data-filter=".marfa">Marfa</button>
-          <button class="button" data-filter=".ftdavis">Fort Davis</button>
-          <button class="button" data-filter=".surrounding-areas">Surrounding Areas</button>
-        </div>
-        <div class="row">
-          <div class="item-grid">
-            <div class="iso2">
-              <ul class="items">
-                {% for post in site.categories.marfa %}
-                    <li class="item marfa column large-3" data-category="marfa">
-                      <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                      <h3 class="title">{{ post.title }}</h3>
-                      <h4>{{ post.category }}</h4></a>
-                    </li>
-                {% endfor %}
-                {% for post in site.categories.alpine %}
-                  <li class="item alpine column large-3" data-category="alpine">
-                        <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                        <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
-                  </li>  
-                {% endfor %}
-                {% for post in site.categories.fortdavis %}
-                  <li class="item ftdavis column large-3" data-category="ftdavis">
-                        <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                        <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
-                  </li> 
-                {% endfor %}
-                {% for post in site.categories.surroundingareas %}
-                  <li class="item surrounding-areas column large-3" data-category="surrounding-areas">
-                        <a href="{{ post.url }}"><img class="portfolio_thumb_holder" src="{{ post.cover_photo_url }}">
-                        <h3 class="title">{{ post.title }}</h3>
-                        <h4>{{ post.category }}</h4></a>
-                  </li>  
-                    {% endfor %}      
-              </ul>                        
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>  
 <!-- Footer -->
 
     <section id="footer" class="page-content">
@@ -329,6 +277,11 @@
           // use filterFn if matches value
           filterValue = filterFns[ filterValue ] || filterValue;
           $containerTwo.isotope({ filter: filterValue });
+        });
+
+        $('#sorts').on( 'click', 'button', function() {
+          var sortValue = $(this).attr('data-sort-value');
+          $containerTwo.isotope({ sortBy: sortValue });
         });
         
         // change is-checked class on buttons

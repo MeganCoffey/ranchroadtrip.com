@@ -3,6 +3,7 @@ layout: post
 title:  "Squeeze"
 date:   2014-01-01 20:25:59
 category: MARFA
+tag: COFFEE
 cover_photo_url: /images/marfa_squeeze.jpg
 ---
 

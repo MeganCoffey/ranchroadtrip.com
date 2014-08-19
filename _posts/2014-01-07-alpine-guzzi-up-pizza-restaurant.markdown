@@ -3,6 +3,7 @@ layout: post
 title:  "Guzzi Up Pizza and Pasta Restaurant"
 date:   2014-01-07 20:25:59
 category: ALPINE
+tag: RESTAURANT
 cover_photo_url: /images/alpine_guzzi_up_restaurant.jpg
 ---
 
