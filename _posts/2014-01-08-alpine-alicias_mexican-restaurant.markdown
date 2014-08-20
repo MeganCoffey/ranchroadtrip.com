@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Alicia's Mexican Restaurant"
+title:  "Alicia's Mexican"
 date:   2014-01-08 20:25:59
 category: ALPINE
 tag: RESTAURANT

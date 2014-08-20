@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Historic Holland Hotel and Century Bar"
+title:  "Holland Hotel & Century Bar"
 date:   2014-01-05 20:25:59
 category: ALPINE
 tag: HOTEL & BAR

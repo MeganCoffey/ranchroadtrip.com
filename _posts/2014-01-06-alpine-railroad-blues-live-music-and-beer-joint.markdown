@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Railroad Blues Live Music and Beer Joint"
+title:  "Railroad Blues Beer Joint"
 date:   2014-01-06 20:25:59
 category: ALPINE
 tag: BAR
