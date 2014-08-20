@@ -16,5 +16,5 @@ cover_photo_url: images/fort_davis_drugstore_hotel.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/fort_davis_drugstore_hotel.jpg">
+    <img src="{{ "/images/fort_davis_drugstore_hotel.jpg" | prepend: site.baseurl }}">
 </div>

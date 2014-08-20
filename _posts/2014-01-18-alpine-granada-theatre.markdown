@@ -16,5 +16,5 @@ cover_photo_url: images/alpine_granada_music.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/alpine_granada_music.jpg">
+    <img src="{{ "/images/alpine_granada_music.jpg" | prepend: site.baseurl }}">
 </div>

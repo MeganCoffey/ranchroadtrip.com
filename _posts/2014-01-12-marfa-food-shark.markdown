@@ -16,6 +16,6 @@ cover_photo_url: images/marfa_food_shark_trailer.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_food_shark_trailer.jpg">
+    <img src="{{ "/images/marfa_food_shark_trailer.jpg" | prepend: site.baseurl }}">
 </div>   
 

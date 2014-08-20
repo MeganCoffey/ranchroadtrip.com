@@ -16,6 +16,6 @@ cover_photo_url: images/alpine_alicias.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/alpine_alicias.jpg">
+    <img src="{{ "/images/alpine_alicias.jpg" | prepend: site.baseurl }}">
 </div>   
 

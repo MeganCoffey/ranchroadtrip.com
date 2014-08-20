@@ -16,5 +16,5 @@ cover_photo_url: images/alpine_street_mural.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/alpine_street_mural.jpg">
+    <img src="{{ "/images/alpine_street_mural.jpg" | prepend: site.baseurl }}">
 </div>

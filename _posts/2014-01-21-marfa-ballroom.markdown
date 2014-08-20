@@ -16,5 +16,5 @@ cover_photo_url: images/marfa_ballroom_thumb.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_ballroom_thumb.jpg">
+    <img src="{{ "/images/marfa_ballroom_thumb.jpg" | prepend: site.baseurl }}">
 </div>

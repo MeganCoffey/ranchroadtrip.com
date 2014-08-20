@@ -16,6 +16,6 @@ cover_photo_url: images/marfa_cobra_rock_boot_company.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_cobra_rock_boot_company.jpg">
+    <img src="{{ "/images/marfa_cobra_rock_boot_company.jpg" | prepend: site.baseurl }}">
 </div>   
 

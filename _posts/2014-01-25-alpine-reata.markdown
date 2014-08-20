@@ -16,5 +16,5 @@ cover_photo_url: images/alpine_reata_restaurant.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/alpine_reata_restaurant.jpg">
+    <img src="{{ "/images/alpine_reata_restaurant.jpg" | prepend: site.baseurl }}">
 </div>

@@ -16,6 +16,6 @@ cover_photo_url: images/marfa_padres_thumb.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_padres_thumb.jpg">
+    <img src="{{ "/images/marfa_padres_thumb.jpg" | prepend: site.baseurl }}">
 </div>   
 

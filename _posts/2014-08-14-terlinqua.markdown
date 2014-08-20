@@ -16,6 +16,6 @@ cover_photo_url: images/terlingua.jpg
 	<p>
 	</p>
 <div class="column small-6">
-	<img src="/images/terlingua.jpg">
+	<img src="{{ "/images/terlingua.jpg" | prepend: site.baseurl }}">
 </div>   
 

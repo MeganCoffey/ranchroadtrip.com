@@ -16,6 +16,6 @@ cover_photo_url: images/marfa_get_go_grocery.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_get_go_grocery.jpg">
+    <img src="{{ "/images/marfa_get_go_grocery.jpg" | prepend: site.baseurl }}">
 </div>   
 

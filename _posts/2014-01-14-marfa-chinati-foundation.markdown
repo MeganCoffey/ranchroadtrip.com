@@ -16,5 +16,5 @@ cover_photo_url: images/marfa_chinati_museum.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_chinati_museum.jpg">
+    <img src="{{ "/images/marfa_chinati_museum.jpg" | prepend: site.baseurl }}">
 </div> 
