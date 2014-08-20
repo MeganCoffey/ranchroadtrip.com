@@ -198,6 +198,18 @@ h1 {
   position: relative;
 }*/
 
+.post-content h2 {
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0px;
+}
+
+.post-content h4 {
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: 'Roboto Condensed', sans-serif; font-weight: 700;
+}
+
 /* ---- button ---- */
 
 .button {
@@ -336,7 +348,59 @@ h1 {
 .item-grid h4 {
   font-size: 13px;
   font-weight: bold;
-    font-family: 'Roboto Condensed', sans-serif; font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif; font-weight: 400;
+}
+
+#inset-grid img, #inset-grid2 img {
+  margin-left: 20%;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#inset-grid2 img {
+  margin-left: 50%;
+  padding-left: 10px;
+/*  padding-top: 20px;*/
+  padding-bottom: 40px;
+}
+
+#inset-grid2 p {
+  margin-left: 50%;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Roboto Condensed', sans-serif; font-weight: 400;
+}
+
+
+#inset-grid h3, #inset-grid2 h3 {
+  text-align: center;
+  padding-top: ;
+}
+
+#inset-grid h1, #inset-grid2 h1, #title-special {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#inset-grid h4{
+  padding-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+#inset-grid2 h4 {
+  padding-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 footer {
