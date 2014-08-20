@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
   {% include rewind_head.html %}
-<body>
-  <div id="header">
-    {% include rewind_header.html %}
-  </div>
-  <section class="page-content">
-  	{{ content }}
-  </section>  
 
-  <!-- Footer -->
+<!-- body -->
 
-  <section id="footer" class="page-content">
-        {% include footer.html %}
-  </section>  
+  <body>
+    <div id="header">
+      {% include rewind_header.html %}
+    </div>
 
-  <script type="text/javascript" src="../js/jquery.sticky.js"></script>
-  <script>
-    $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
-    });
-  </script>
+    <!-- section -->
 
+    <section class="page-content">
+    	{{ content }}
+    </section>  
+
+    <!-- footer -->
+
+    <section id="footer" class="page-content">
+      {% include footer.html %}
+    </section>  
+
+    <!-- script -->
+
+    <script type="text/javascript" src="../js/jquery.sticky.js"></script>
+      <script>
+        $(window).load(function(){
+          $("#header").sticky({ topSpacing: 0 });
+        });
+    </script>
   </body>
 </html>

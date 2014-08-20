@@ -13,8 +13,8 @@ cover_photo_url: /images/marfa_food_shark_trailer.jpg
     <div class="divider-border"></div>
 </div> 
 <div class="column small-6">
-  <p>
-  </p>
+    <p>
+    </p>
 <div class="column small-6">
     <img src="/images/marfa_food_shark_trailer.jpg">
 </div>   

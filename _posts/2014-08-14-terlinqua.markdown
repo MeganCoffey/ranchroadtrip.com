@@ -9,13 +9,13 @@ cover_photo_url: /images/terlingua.jpg
 
 <div class="section-title">
 	<h2>Terlingua (Ghost Town)</h2>
-  	<h4>SURROUNDING AREAS</h4>
-  	<div class="divider-border"></div>
+	<h4>SURROUNDING AREAS</h4>
+	<div class="divider-border"></div>
 </div> 
 <div class="column small-6">
-  <p>
-  </p>
+	<p>
+	</p>
 <div class="column small-6">
-    <img src="/images/terlingua.jpg">
+	<img src="/images/terlingua.jpg">
 </div>   
 

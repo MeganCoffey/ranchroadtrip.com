@@ -8,13 +8,13 @@ cover_photo_url: /images/marfa_chapel.jpg
 ---
 
 <div class="section-title">
-  <h2>Tiny Church Marfa</h2>
+    <h2>Tiny Church Marfa</h2>
     <h4>ALPINE</h4>
     <div class="divider-border"></div>
 </div> 
 <div class="column small-6">
-  <p>
-  </p>
+    <p>
+    </p>
 <div class="column small-6">
     <img src="/images/marfa_chapel.jpg">
 </div>

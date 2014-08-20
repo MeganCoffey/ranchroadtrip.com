@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html>
-
   {% include post_head.html %}
 
-    <body>
+<!-- body -->
 
+  <body>
     <div id="header">
       {% include post_header.html %}
     </div>
 
+    <!-- section -->
+
     <section id="post" class="page-content">
-  	 <div class="wrap">
-  			<div class="post" data-category="{{ post.category }}">
-
-			  <article class="post-content">
-			  {{ content }}
-			  </article>
-
-  			</div>
-  		</div>	
+      <div class="wrap">
+        <div class="post" data-category="{{ post.category }}">
+          <article class="post-content">
+      	   {{ content }}
+      	  </article>
+      	</div>
+    	</div>	
     </section>  
 
-    <!-- Footer -->
-
-    <section id="footer" class="page-content">
-          {% include footer.html %}
-    </section>  
-    
     <script type="text/javascript" src="/js/jquery.sticky.js"></script>
     <script>
       $(window).load(function(){
         $("#header").sticky({ topSpacing: 0 });
       });
     </script>
-
-    </body>
+  </body>
 </html>

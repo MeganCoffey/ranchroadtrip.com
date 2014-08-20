@@ -13,8 +13,8 @@ cover_photo_url: /images/alpine_sul_ross_university.jpg
     <div class="divider-border"></div>
 </div> 
 <div class="column small-6">
-  <p>
-  </p>
+    <p>
+    </p>
 <div class="column small-6">
     <img src="/images/alpine_sul_ross_university.jpg">
 </div>

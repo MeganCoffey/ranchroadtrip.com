@@ -2,12 +2,6 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-  padding-left: 45px;
-}
-
 *{
   font-family: 'Roboto Slab', serif;
 }
@@ -51,7 +45,7 @@ a:hover{
 }
 
 #home h5{
-    padding-top: 3%;
+  padding-top: 3%;
   text-align: center;
 
 }
@@ -67,7 +61,7 @@ a:hover{
 }
 
 #home .ftdavis.intro p {
-padding-top: 13px;
+  padding-top: 13px;
 }
 
 #home .ftdavis.intro img {
@@ -160,26 +154,9 @@ h1 {
   padding-top: 25px;
 }
 
-/*#see .wrap{
-  height: 900px;
-}*/
-
-/*#slideshow-container {
-  height: 400px;
-  overflow: hidden;
-}*/
-
-
-
 #home .alpine.intro, .marfa.intro, .ftdavis.intro  {
  padding-right: 10px;
 }
-
-/*.first { margin-top: 0 !important; margin-left: 0 !important; }
-.last { 
-  margin-bottom: 0 !important; 
-  padding-right: 0 !important; 
-}*/
 
 .divider-heading {
   padding: 30px 0 0 0;
@@ -194,26 +171,7 @@ h1 {
   margin: 40px 0;
 }
 
-/*.trigger-button {
-  float: left;
-  width: 100%;
-  padding: 10px 0 10px 0;
-  margin-bottom: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  background: url(../images/bullet-toggle.png) no-repeat right 15px #f4f4f4;
-  cursor: pointer;
-}
-
-.accordion {
-  float: left;
-  padding: 8px 15px 22px 15px;
-}*/
-
-.one-third {
+/*.one-third {
   width: 306px;
   margin-right: 21px;
 }
@@ -221,19 +179,6 @@ h1 {
 .one, .one-half, .two-third, .one-third, .one-fourth {
   float: left;
   position: relative;
-}
-
-/*buttons for isotope*/
-
-/*.isotope {
-  border: 1px solid #333;
-}*/
-
-/* clear fix */
-/*.isotope:after {
-  content: '';
-  display: block;
-  clear: both;
 }*/
 
 /* ---- button ---- */
@@ -243,19 +188,15 @@ h1 {
   padding: 0.5em 1.0em;
   background: #EEE;
   border: none;
-/*  border-radius: 7px;*/
-  /*background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );*/
   color: #222;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
-/*  text-shadow: 0 1px white;*/
   cursor: pointer;
   outline: 0;
 }
 
 .button:hover {
   background-color: #d0faf0;
-  /*text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);*/
   color: #222;
 }
 
@@ -266,11 +207,6 @@ h1 {
 
 .button.is-checked {
   color: white;
-/*  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);*/
-}
-
-.button:active {
-  /*box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);*/
 }
 
 /* ---- button-group ---- */
@@ -288,24 +224,18 @@ h1 {
   margin-right: 1px;
 }
 
-/*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
-.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }*/
-
 /*end of buttons for isotope*/
 
 /*----- Accordion -----*/
 
 .accordion, .accordion * {
-    -webkit-box-sizing:border-box; 
-    -moz-box-sizing:border-box; 
-    box-sizing:border-box;
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
 }
  
 .accordion {
-    overflow:hidden;
-/*    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-    border-radius:3px;*/
-/*    background:#f7f7f7;*/
+  overflow:hidden;
   padding-bottom: 1%;
 }
 
@@ -315,34 +245,30 @@ h1 {
 }
  
 /*----- Section Titles -----*/
+
 .accordion-section-title {
-    width:100%;
-    padding:12px;
-    display:inline-block;
-/*    border-bottom:1px solid #1a1a1a;*/
-    background:#f4f4f4;
-    transition:all linear 0.15s;
-    /* Type */
-    font-size:1em;
-    color: #3daba3;
-/*    text-shadow:0px 1px 0px #1a1a1a;*/
-/*    color:#fff;*/
+  width:100%;
+  padding:12px;
+  display:inline-block;
+  background:#f4f4f4;
+  transition:all linear 0.15s;
+  font-size:1em;
+  color: #3daba3;
 }
  
 .accordion-section-title.active, .accordion-section-title:hover {
-/*    background:#4c4c4c;*/
-    /* Type */
-    text-decoration:none;
+  text-decoration:none;
 }
  
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:none;
+  border-bottom:none;
 }
  
 /*----- Section Content -----*/
+
 .accordion-section-content {
-    padding:15px;
-    display:none;
+  padding:15px;
+  display:none;
 }
 
 /*end accordian styles*/
@@ -355,7 +281,6 @@ h1 {
   height: inherit;
   background: #0D8;
   border: 5px solid white;
-/*  border-color: hsla(0, 0%, 0%, 0.7);*/
 }
 
 .item-city.width2 { width: 300px; }
@@ -364,17 +289,8 @@ h1 {
 /* ---- .item see/eat+drink pages ---- */
 
 .item {
-/*  float: left;*/
-/*  width: 600px;*/
-/*  height: inherit;*/
   background:#f4f4f4;
-/*  border: 5px solid white;*/
-/*  border-color: hsla(0, 0%, 0%, 0.7);*/
 }
-
-/*.wrap .item-grid {
-  min-height: 800px;
-}*/
 
 .item-grid ul{
   list-style-type: none;
@@ -415,4 +331,8 @@ footer {
 .site-footer img {
   padding-top: 10px;
   max-width: 300px;
+}
+
+#footer {
+  padding: 0px;
 }
