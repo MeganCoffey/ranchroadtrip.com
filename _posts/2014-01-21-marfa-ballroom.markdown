@@ -4,7 +4,7 @@ title:  "Marfa Ballroom"
 date:   2014-01-21 20:25:59
 category: MARFA
 tag: VENUE
-cover_photo_url: /images/marfa_ballroom_thumb.jpg
+cover_photo_url: images/marfa_ballroom_thumb.jpg
 ---
 
 <div class="section-title">

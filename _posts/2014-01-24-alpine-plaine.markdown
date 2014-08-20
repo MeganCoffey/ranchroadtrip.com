@@ -4,7 +4,7 @@ title:  "Plaine"
 date:   2014-01-24 20:25:59
 category: ALPINE
 tag: COFFEE
-cover_photo_url: /images/alpine_plaine_coffee.jpg
+cover_photo_url: images/alpine_plaine_coffee.jpg
 ---
 
 <div class="section-title">

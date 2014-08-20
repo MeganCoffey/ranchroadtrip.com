@@ -4,7 +4,7 @@ title:  "Cobra Rock Boot Company"
 date:   2014-01-13 20:25:59
 category: MARFA
 tag: STORE
-cover_photo_url: /images/marfa_cobra_rock_boot_company.jpg
+cover_photo_url: images/marfa_cobra_rock_boot_company.jpg
 ---
 
 <div class="section-title">

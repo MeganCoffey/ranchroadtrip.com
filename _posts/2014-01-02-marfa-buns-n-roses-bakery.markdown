@@ -4,7 +4,7 @@ title:  "Buns N' Roses Bakery"
 date:   2014-01-02 20:25:59
 category: MARFA
 tag: BAKERY & CAFE
-cover_photo_url: /images/marfa_bunsandroses_thumb.jpg
+cover_photo_url: images/marfa_bunsandroses_thumb.jpg
 ---
 
 <div class="section-title">

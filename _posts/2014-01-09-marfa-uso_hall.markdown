@@ -4,7 +4,7 @@ title:  "USO Hall"
 date:   2014-01-09 20:25:59
 category: MARFA
 tag: HISTORIC
-cover_photo_url: /images/marfa_USO_hall.jpg
+cover_photo_url: images/marfa_USO_hall.jpg
 ---
 
 <div class="section-title">

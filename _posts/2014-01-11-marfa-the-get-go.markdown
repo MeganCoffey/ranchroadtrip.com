@@ -4,7 +4,7 @@ title:  "The Get Go"
 date:   2014-01-10 20:25:59
 category: MARFA
 tag: GROCERY
-cover_photo_url: /images/marfa_get_go_grocery.jpg
+cover_photo_url: images/marfa_get_go_grocery.jpg
 ---
 
 <div class="section-title">

@@ -4,7 +4,7 @@ title:  "Chinati Foundation"
 date:   2014-01-14 20:25:59
 category: MARFA
 tag: MUSEUM
-cover_photo_url: /images/marfa_chinati_museum.jpg
+cover_photo_url: images/marfa_chinati_museum.jpg
 ---
 
 <div class="section-title">

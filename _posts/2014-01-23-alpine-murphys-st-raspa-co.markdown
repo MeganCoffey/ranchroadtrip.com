@@ -4,7 +4,7 @@ title:  "Murphy's St. Raspa Co."
 date:   2014-01-23 20:25:59
 category: ALPINE
 tag: ICE CREAM
-cover_photo_url: /images/alpine_murphy_st_raspa_co.jpg
+cover_photo_url: images/alpine_murphy_st_raspa_co.jpg
 ---
 
 <div class="section-title">

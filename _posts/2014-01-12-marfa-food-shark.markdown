@@ -4,7 +4,7 @@ title:  "Food Shark"
 date:   2014-01-10 20:25:59
 category: MARFA
 tag: FOOD TRAILER
-cover_photo_url: /images/marfa_food_shark_trailer.jpg
+cover_photo_url: images/marfa_food_shark_trailer.jpg
 ---
 
 <div class="section-title">

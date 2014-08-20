@@ -4,7 +4,7 @@ title:  "Tiny Church Marfa"
 date:   2014-01-28 20:25:59
 category: MARFA
 tag: SCENIC
-cover_photo_url: /images/marfa_chapel.jpg
+cover_photo_url: images/marfa_chapel.jpg
 ---
 
 <div class="section-title">

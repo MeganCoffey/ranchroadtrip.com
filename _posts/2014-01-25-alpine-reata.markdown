@@ -4,7 +4,7 @@ title:  "Reata Texas Cowboy Cuisine"
 date:   2014-01-25 20:25:59
 category: ALPINE
 tag: RESTAURANT
-cover_photo_url: /images/alpine_reata_restaurant.jpg
+cover_photo_url: images/alpine_reata_restaurant.jpg
 ---
 
 <div class="section-title">

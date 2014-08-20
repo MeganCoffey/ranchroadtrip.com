@@ -4,7 +4,7 @@ title:  "Granada Theatre"
 date:   2014-01-18 20:25:59
 category: ALPINE
 tag: LIVE MUSIC
-cover_photo_url: /images/alpine_granada_music.jpg
+cover_photo_url: images/alpine_granada_music.jpg
 ---
 
 <div class="section-title">

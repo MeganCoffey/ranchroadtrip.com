@@ -4,7 +4,7 @@ title:  "Alpine Street Mural"
 date:   2014-01-27 20:25:59
 category: ALPINE
 tag: MURAL
-cover_photo_url: /images/alpine_street_mural.jpg
+cover_photo_url: images/alpine_street_mural.jpg
 ---
 
 <div class="section-title">

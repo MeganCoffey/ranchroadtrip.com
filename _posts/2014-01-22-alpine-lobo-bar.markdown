@@ -4,7 +4,7 @@ title:  "Lobo Bar"
 date:   2014-01-22 20:25:59
 category: ALPINE
 tag: BAR
-cover_photo_url: /images/alpine_lobo_bar.jpg
+cover_photo_url: images/alpine_lobo_bar.jpg
 ---
 
 <div class="section-title">

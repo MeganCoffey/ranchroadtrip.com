@@ -4,7 +4,7 @@ title:  "Fort Davis Drug Store"
 date:   2014-01-19 20:25:59
 category: FORTDAVIS
 tag: RESTAURANT
-cover_photo_url: /images/fort_davis_drugstore_hotel.jpg
+cover_photo_url: images/fort_davis_drugstore_hotel.jpg
 ---
 
 <div class="section-title">

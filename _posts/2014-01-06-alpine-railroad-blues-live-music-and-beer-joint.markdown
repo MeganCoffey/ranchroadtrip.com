@@ -4,7 +4,7 @@ title:  "Railroad Blues Beer Joint"
 date:   2014-01-06 20:25:59
 category: ALPINE
 tag: BAR
-cover_photo_url: /images/alpine_railroad_blues_music_bar.jpg
+cover_photo_url: images/alpine_railroad_blues_music_bar.jpg
 ---
 
 <div class="section-title">

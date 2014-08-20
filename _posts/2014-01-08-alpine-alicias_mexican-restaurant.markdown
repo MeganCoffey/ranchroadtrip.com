@@ -4,7 +4,7 @@ title:  "Alicia's Mexican"
 date:   2014-01-08 20:25:59
 category: ALPINE
 tag: RESTAURANT
-cover_photo_url: /images/alpine_alicias.jpg
+cover_photo_url: images/alpine_alicias.jpg
 ---
 
 <div class="section-title">

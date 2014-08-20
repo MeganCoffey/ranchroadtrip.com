@@ -4,7 +4,7 @@ title:  "Guzzi Up Pizza & Pasta"
 date:   2014-01-07 20:25:59
 category: ALPINE
 tag: RESTAURANT
-cover_photo_url: /images/alpine_guzzi_up_restaurant.jpg
+cover_photo_url: images/alpine_guzzi_up_restaurant.jpg
 ---
 
 <div class="section-title">

@@ -4,7 +4,7 @@ title:  "Farmers Market"
 date:   2014-01-17 20:25:59
 category: ALPINE
 tag: FARMERS MARKET
-cover_photo_url: /images/alpine_farmers_market.jpg
+cover_photo_url: images/alpine_farmers_market.jpg
 ---
 
 <div class="section-title">

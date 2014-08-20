@@ -4,7 +4,7 @@ title:  "Fort Davis National Park"
 date:   2014-02-28 20:25:59
 category: FORTDAVIS
 tag: HISTORIC
-cover_photo_url: /images/ftdavis_the_fort.jpg
+cover_photo_url: images/ftdavis_the_fort.jpg
 ---
 
 <div class="section-title">

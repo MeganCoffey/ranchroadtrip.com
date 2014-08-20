@@ -4,7 +4,7 @@ title:  "Cow Dog"
 date:   2014-01-16 20:25:59
 category: ALPINE
 tag: FOOD TRUCK
-cover_photo_url: /images/alpine_cow_dog.jpg
+cover_photo_url: images/alpine_cow_dog.jpg
 ---
 
 <div class="section-title">
