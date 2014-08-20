@@ -2,7 +2,7 @@
 title: Ranch Road Trip
 email: desginer@coffeystable.com
 description: "Ranch Road Trip is a travel guide to the West Texas Trans-Pecos region. Our Austin-based Coffey family has generations of history in the region and loves sharing their favorite sights and sounds."
-baseurl: ""
+baseurl: "http://megancoffey.github.io/ranchroadtrip.com/"
 url: "http://www.ranchroadtrip.com"
 # twitter_username: jekyllrb
 # github_username:  jekyll
