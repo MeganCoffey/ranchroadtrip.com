@@ -50,8 +50,8 @@ body {
   position: relative;
   cursor: default; }
 
-a:hover {
-  cursor: pointer; }
+/*a:hover {
+  cursor: pointer; }*/
 
 img {
   max-width: 100%;
@@ -2598,14 +2598,14 @@ td {
   padding: 0; }
 
 /* Default Link Styles */
-a {
+/*a {
   color: #008cba;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
     color: #0078a0; }
   a img {
-    border: none; }
+    border: none; }*/
 
 /* Default paragraph styles */
 p {
