@@ -24,5 +24,5 @@ cover_photo_url: images/marfa_paisano_giant_museum.jpg
       <a href="http://hotelpaisano.com/giant/">www.hotelpaisano.com/giant/</a>
     </p>
 <div class="column small-6">
-    <img src="/images/marfa_paisano_giant_museum.jpg">
+    <img src="{{ "/images/marfa_paisano_giant_museum.jpg" | prepend: site.baseurl }}">
 </div>   

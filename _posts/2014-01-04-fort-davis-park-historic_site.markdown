@@ -24,5 +24,5 @@ cover_photo_url: images/ftdavis_the_fort.jpg
   <a href="www.nps.gov/foda">www.nps.gov/foda</a>
   </p>
 <div class="column small-6">
-    <img src="/images/ftdavis_the_fort.jpg">
+    <img src="{{ "/images/ftdavis_the_fort.jpg" | prepend: site.baseurl }}">
 </div>   
