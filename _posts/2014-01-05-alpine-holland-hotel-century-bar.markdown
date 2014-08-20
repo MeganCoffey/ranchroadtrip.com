@@ -20,6 +20,6 @@ cover_photo_url: images/alpine_holland_hotel__century_bar.jpg
 	 Grab a margarita, one of the best in town!
 	</p>
 <div class="column small-6">
-    <img src="{{ "/images/alpine_holland_hotel__century_bar.jpg" | prepend: site.baseurl }}">
+    <img src="{{ "images/alpine_holland_hotel__century_bar.jpg" | prepend: site.baseurl }}">
 </div>   
 

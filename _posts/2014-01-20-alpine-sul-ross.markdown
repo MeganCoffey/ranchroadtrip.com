@@ -16,5 +16,5 @@ cover_photo_url: images/alpine_sul_ross_university.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="{{ "/images/alpine_sul_ross_university.jpg" | prepend: site.baseurl }}">
+    <img src="{{ "images/alpine_sul_ross_university.jpg" | prepend: site.baseurl }}">
 </div>

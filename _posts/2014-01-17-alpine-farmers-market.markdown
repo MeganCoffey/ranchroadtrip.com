@@ -16,5 +16,5 @@ cover_photo_url: images/alpine_farmers_market.jpg
     <p>
     </p>
 <div class="column small-6">
-    <img src="{{ "/images/alpine_farmers_market.jpg" | prepend: site.baseurl }}">
+    <img src="{{ "images/alpine_farmers_market.jpg" | prepend: site.baseurl }}">
 </div>
