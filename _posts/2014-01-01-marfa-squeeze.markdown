@@ -23,6 +23,6 @@ cover_photo_url: images/marfa_squeeze.jpg
       <a href="http://www.squeezemarfa.com/">www.squeezemarfa.com</a>
     </p>
 <div class="column small-6">
-    <img src="{{ "images/marfa_squeeze.jpg" | prepend: site.baseurl }}">
+    <img src="{{ "../images/marfa_squeeze.jpg" | prepend: site.baseurl }}">
 </div>   
 
