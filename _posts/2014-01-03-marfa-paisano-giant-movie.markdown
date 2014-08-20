@@ -11,7 +11,6 @@ cover_photo_url: /images/marfa_paisano_giant_museum.jpg
     <h3 class="title">{{ post.title }}</h3>
     <h4>{{ post.category }}</h4></a>
 </li>
-
 <div class="section-title">
 	<h2>Squeeze</h2>
   	<h4>MARFA</h4>
